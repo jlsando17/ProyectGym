@@ -1,0 +1,9 @@
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\bin\Debug\netstandard2.0\GimnasioFacil.App.Dominio.deps.json
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\bin\Debug\netstandard2.0\GimnasioFacil.App.Dominio.dll
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\bin\Debug\netstandard2.0\GimnasioFacil.App.Dominio.pdb
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\obj\Debug\netstandard2.0\GimnasioFacil.App.Dominio.csprojAssemblyReference.cache
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\obj\Debug\netstandard2.0\GimnasioFacil.App.Dominio.AssemblyInfoInputs.cache
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\obj\Debug\netstandard2.0\GimnasioFacil.App.Dominio.AssemblyInfo.cs
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\obj\Debug\netstandard2.0\GimnasioFacil.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\obj\Debug\netstandard2.0\GimnasioFacil.App.Dominio.dll
+C:\Gimnasio\GimnasioFacil.App\GimnasioFacil.App.Dominio\obj\Debug\netstandard2.0\GimnasioFacil.App.Dominio.pdb
