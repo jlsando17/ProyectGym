@@ -8,10 +8,10 @@ namespace GimnasioFacil.App.Dominio
     {
      public int Id {get;set;}
      public Cliente Cliente { get; set; } 
-      public List<Rutina> Rutina {get;set;}
-      public List<Nutricion> Nutricion{get;set;}
+      public Rutina Rutina {get;set;}
+      public Nutricion Nutricion{get;set;}
      public DateTime Fecha { get; set; } 
-      public Valoracion Valoracion { get; set; } 
+
 
       
       }

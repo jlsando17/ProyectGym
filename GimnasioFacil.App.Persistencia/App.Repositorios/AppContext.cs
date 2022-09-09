@@ -9,7 +9,7 @@ namespace GimnasioFacil.App.Persistencia
     public DbSet<Entrenamiento> Entrenamientos{get;set;}
     public DbSet<Nutricion> Nutriciones{get;set;}
     public DbSet<Rutina> Rutinas{get;set;}
-    public DbSet<Valoracion> Valoraciones{get;set;}
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

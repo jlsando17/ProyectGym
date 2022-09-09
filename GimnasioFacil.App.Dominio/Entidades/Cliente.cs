@@ -10,6 +10,9 @@ namespace GimnasioFacil.App.Dominio
       public string Telefono{get;set;}
       public string Direccion{get;set;}
       public string Contrasena{get;set;}
+      public string Edad{get;set;}
+      public string Peso{get;set;}
+      public string Altura{get;set;}
       }
 
 }

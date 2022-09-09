@@ -36,7 +36,7 @@ namespace GimnasioFacil.App.Persistencia
                 entrenamientoEncontrado.Rutina=entrenamiento.Rutina;
                 entrenamientoEncontrado.Nutricion=entrenamiento.Nutricion;
                 entrenamientoEncontrado.Fecha=entrenamiento.Fecha; 
-                entrenamientoEncontrado.Valoracion=entrenamiento.Valoracion;                
+                
 
 
                 _appContext.SaveChanges();

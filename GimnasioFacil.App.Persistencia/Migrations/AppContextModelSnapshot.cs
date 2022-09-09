@@ -26,6 +26,9 @@ namespace GimnasioFacil.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("Altura")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Apellidos")
                         .HasColumnType("nvarchar(max)");
 
@@ -35,10 +38,16 @@ namespace GimnasioFacil.App.Persistencia.Migrations
                     b.Property<string>("Direccion")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Edad")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombres")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Peso")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Telefono")
@@ -62,14 +71,19 @@ namespace GimnasioFacil.App.Persistencia.Migrations
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("ValoracionId")
+                    b.Property<int?>("NutricionId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("RutinaId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ClienteId");
 
-                    b.HasIndex("ValoracionId");
+                    b.HasIndex("NutricionId");
+
+                    b.HasIndex("RutinaId");
 
                     b.ToTable("Entrenamientos");
                 });
@@ -84,15 +98,10 @@ namespace GimnasioFacil.App.Persistencia.Migrations
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("EntrenamientoId")
-                        .HasColumnType("int");
-
                     b.Property<string>("NombreNutricion")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("EntrenamientoId");
 
                     b.ToTable("Nutriciones");
                 });
@@ -107,38 +116,12 @@ namespace GimnasioFacil.App.Persistencia.Migrations
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("EntrenamientoId")
-                        .HasColumnType("int");
-
                     b.Property<string>("NombreRutina")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EntrenamientoId");
-
                     b.ToTable("Rutinas");
-                });
-
-            modelBuilder.Entity("GimnasioFacil.App.Dominio.Valoracion", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<float>("Altura")
-                        .HasColumnType("real");
-
-                    b.Property<string>("Edad")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<float>("Peso")
-                        .HasColumnType("real");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Valoraciones");
                 });
 
             modelBuilder.Entity("GimnasioFacil.App.Dominio.Entrenamiento", b =>
@@ -147,31 +130,16 @@ namespace GimnasioFacil.App.Persistencia.Migrations
                         .WithMany()
                         .HasForeignKey("ClienteId");
 
-                    b.HasOne("GimnasioFacil.App.Dominio.Valoracion", "Valoracion")
+                    b.HasOne("GimnasioFacil.App.Dominio.Nutricion", "Nutricion")
                         .WithMany()
-                        .HasForeignKey("ValoracionId");
+                        .HasForeignKey("NutricionId");
+
+                    b.HasOne("GimnasioFacil.App.Dominio.Rutina", "Rutina")
+                        .WithMany()
+                        .HasForeignKey("RutinaId");
 
                     b.Navigation("Cliente");
 
-                    b.Navigation("Valoracion");
-                });
-
-            modelBuilder.Entity("GimnasioFacil.App.Dominio.Nutricion", b =>
-                {
-                    b.HasOne("GimnasioFacil.App.Dominio.Entrenamiento", null)
-                        .WithMany("Nutricion")
-                        .HasForeignKey("EntrenamientoId");
-                });
-
-            modelBuilder.Entity("GimnasioFacil.App.Dominio.Rutina", b =>
-                {
-                    b.HasOne("GimnasioFacil.App.Dominio.Entrenamiento", null)
-                        .WithMany("Rutina")
-                        .HasForeignKey("EntrenamientoId");
-                });
-
-            modelBuilder.Entity("GimnasioFacil.App.Dominio.Entrenamiento", b =>
-                {
                     b.Navigation("Nutricion");
 
                     b.Navigation("Rutina");

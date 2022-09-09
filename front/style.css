@@ -1,0 +1,39 @@
+body {
+  background: #eeadc6 url("fondoRegistro.jpg") no-repeat center center;
+  background-size: 100% 100%;
+}
+body p {
+  text-align: right;
+  font-family: Verdana;
+  color: red;
+}
+h1 {
+  text-align: left;
+  color: rgb(103, 174, 202);
+}
+h3 {
+  color: cornflowerblue;
+}
+#navegador ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#navegador li {
+  display: inline;
+  text-align: center;
+  margin: 0 10 px 0 0;
+}
+
+#navegador li a {
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #ffcdcd;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+
+#navegador li a :hover {
+  background-color: #333333;
+  color: #ffffff;
+}

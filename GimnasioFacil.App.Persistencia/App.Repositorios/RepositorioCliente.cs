@@ -29,15 +29,17 @@ namespace GimnasioFacil.App.Persistencia
         public Cliente ActualizarCliente(Cliente cliente)
         {
             var clienteEncontrado=_appContext.Clientes.FirstOrDefault(p=>p.Id==cliente.Id);
-            
-            if(clienteEncontrado!=null){
-                
+            if(clienteEncontrado!=null)
+              {          
                 clienteEncontrado.Nombres=cliente.Nombres;
                 clienteEncontrado.Apellidos=cliente.Apellidos;
                 clienteEncontrado.Email=cliente.Email;
                 clienteEncontrado.Telefono=cliente.Telefono;
                 clienteEncontrado.Direccion=cliente.Direccion;
                 clienteEncontrado.Contrasena=cliente.Contrasena;
+                clienteEncontrado.Edad=cliente.Edad;
+                clienteEncontrado.Peso=cliente.Peso;
+                clienteEncontrado.Altura=cliente.Altura;
 
                 _appContext.SaveChanges();
 
@@ -55,5 +57,5 @@ namespace GimnasioFacil.App.Persistencia
             _appContext.SaveChanges();
         }
     }   
-}     
 
+}
