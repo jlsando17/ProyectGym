@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mqh71NVULVB4Wgqs+26+yObem1OQCbgIQ9Vyo5MiQ/U30UVAMzNczhhY8XyEswFzuJM8THpgQrRW0C14zvOU2g==",
+  "dgSpecHash": "Jmq4j7kIfHLwJECba8ExkVFBRNeu82kMO3aCbGLuC9adb7msjSWOBDqhws0BnFv4k/1yS5J7aAm+yKxvDFGAag==",
   "success": true,
-  "projectFilePath": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Consola\\GimnasioFacil.App.Consola.csproj",
+  "projectFilePath": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.consola\\GimnasioFacil.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anita\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\anita\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

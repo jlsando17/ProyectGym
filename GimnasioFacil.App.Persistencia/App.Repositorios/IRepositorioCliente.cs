@@ -2,7 +2,7 @@ using GimnasioFacil.App.Dominio;
 using System.Collections.Generic;
 
 namespace GimnasioFacil.App.Persistencia
-{
+{ 
     public interface IRepositorioCliente
     {
         Cliente CrearCliente(Cliente cliente);

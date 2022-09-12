@@ -1,0 +1,40 @@
+﻿@page
+@model GimnasioFacil.App.Presentacion.Pages.ListasModel
+@{
+    ViewData["Title"]="Rutinas";
+}
+
+<h2 class="text-info" style="text-align: ;:center;">Lista Rutinas</h2>
+
+<div class="border">
+    <table class="table">
+        <tr>
+            <td>Nombre de la Rutina</td>
+            <td>Descripcion</td>
+        </tr>
+        @foreach(var r in Model.listaRutina)
+        {
+            <tr>
+                <td>@r.NombreRutina</td>
+                <td>@r.Descripcion</td>
+            </tr>
+        }
+
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+

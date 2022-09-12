@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Consola\\GimnasioFacil.App.Consola.csproj": {}
+    "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.consola\\GimnasioFacil.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Consola\\GimnasioFacil.App.Consola.csproj": {
+    "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.consola\\GimnasioFacil.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Consola\\GimnasioFacil.App.Consola.csproj",
+        "projectUniqueName": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.consola\\GimnasioFacil.App.Consola.csproj",
         "projectName": "GimnasioFacil.App.Consola",
-        "projectPath": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Consola\\GimnasioFacil.App.Consola.csproj",
+        "projectPath": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.consola\\GimnasioFacil.App.Consola.csproj",
         "packagesPath": "C:\\Users\\anita\\.nuget\\packages\\",
-        "outputPath": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Consola\\obj\\",
+        "outputPath": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anita\\AppData\\Roaming\\NuGet\\NuGet.Config"

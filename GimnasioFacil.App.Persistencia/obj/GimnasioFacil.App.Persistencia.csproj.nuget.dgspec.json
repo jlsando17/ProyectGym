@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.persistencia\\GimnasioFacil.App.Persistencia.csproj": {}
+    "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Persistencia\\GimnasioFacil.App.Persistencia.csproj": {}
   },
   "projects": {
     "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Dominio\\GimnasioFacil.App.Dominio.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.persistencia\\GimnasioFacil.App.Persistencia.csproj": {
+    "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Persistencia\\GimnasioFacil.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.persistencia\\GimnasioFacil.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Persistencia\\GimnasioFacil.App.Persistencia.csproj",
         "projectName": "GimnasioFacil.App.Persistencia",
-        "projectPath": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.persistencia\\GimnasioFacil.App.Persistencia.csproj",
+        "projectPath": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Persistencia\\GimnasioFacil.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\anita\\.nuget\\packages\\",
-        "outputPath": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasiofacil.app.persistencia\\obj\\",
+        "outputPath": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anita\\AppData\\Roaming\\NuGet\\NuGet.Config"

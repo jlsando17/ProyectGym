@@ -4,13 +4,11 @@ using System.Collections.Generic;
 
 namespace GimnasioFacil.App.Persistencia
 {
-    public class RepositorioCliente : IRepositorioCliente
+    public class RepositorioCliente:IRepositorioCliente
     {
-        private readonly AppContext _appContext;
-        public RepositorioCliente(AppContext appContext)
-        {
-            this._appContext=appContext;
-        }
+        private readonly AppContext _appContext =new AppContext();
+
+
         public Cliente CrearCliente(Cliente cliente)
         {
             var clienteAdicionado = _appContext.Clientes.Add(cliente);

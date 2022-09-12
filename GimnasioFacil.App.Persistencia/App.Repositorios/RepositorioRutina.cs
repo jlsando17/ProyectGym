@@ -6,11 +6,9 @@ namespace GimnasioFacil.App.Persistencia
 {
     public class RepositorioRutina : IRepositorioRutina
     {
-        private readonly AppContext _appContext;
-        public RepositorioRutina(AppContext appContext)
-        {
-            this._appContext=appContext;
-        }
+        
+        private readonly AppContext _appContext =new AppContext();
+
         public Rutina CrearRutina(Rutina rutina)
         {
             var rutinaAdicionado = _appContext.Rutinas.Add(rutina);
