@@ -6,11 +6,8 @@ namespace GimnasioFacil.App.Persistencia
 {
     public class RepositorioNutricion : IRepositorioNutricion
     {
-        private readonly AppContext _appContext;
-        public RepositorioNutricion(AppContext appContext)
-        {
-            this._appContext=appContext;
-        }
+        private readonly AppContext _appContext =new AppContext();
+
         public Nutricion CrearNutricion(Nutricion nutricion)
         {
             var nutricionAdicionado = _appContext.Nutriciones.Add(nutricion);

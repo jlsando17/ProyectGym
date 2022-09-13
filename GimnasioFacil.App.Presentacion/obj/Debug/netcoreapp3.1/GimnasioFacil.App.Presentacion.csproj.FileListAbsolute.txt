@@ -80,3 +80,4 @@ C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\bin\Debug\netcoreap
 C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\bin\Debug\netcoreapp3.1\GimnasioFacil.App.Persistencia.pdb
 C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\bin\Debug\netcoreapp3.1\GimnasioFacil.App.Dominio.pdb
 C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ListaRutina\Listas.cshtml.g.cs
+C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ListaNutricion\Listas.cshtml.g.cs

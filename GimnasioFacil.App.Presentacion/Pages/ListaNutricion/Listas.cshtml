@@ -1,0 +1,25 @@
+﻿@page
+@model GimnasioFacil.App.Presentacion.ListasModel
+@{
+    ViewData["Title"]="Nutricion";
+}
+
+<h2 class="text-info">Lista Nutricion</h2>
+
+<div class="border">
+    <table class="table">
+        <tr>
+            <td>Nombre del estilo de Nutricion</td>
+            <td>Descripcion</td>
+        </tr>
+        @foreach(var n in Model.listaNutricion)
+        {
+            <tr>
+                <td>@n.NombreNutricion</td>
+                <td>@n.Descripcion</td>
+            </tr>
+        }
+
+    </table>
+
+</div>
