@@ -7,18 +7,18 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using GimnasioFacil.App.Dominio;
 using GimnasioFacil.App.Persistencia;
 
-namespace GimnasioFacil.App.Presentacion.Pages
+namespace GimnasioFacilo.App.Presetnacion.Pages
 {
-    public class FormularioClienteModel : PageModel
-    {
+    public class FormularioRutinaModel : PageModel
+    { 
         [BindProperty]
-        public Cliente Cli{get;set;}
+        public Rutina Ruti{get;set;}
 
-        private readonly IRepositorioCliente _repoCliente;
+        private readonly IRepositorioRutina _repoRutina;
 
-        public FormularioClienteModel(IRepositorioCliente repoCliente)
+        public FormularioRutinaModel(IRepositorioRutina repoRutina)
         {
-            _repoCliente=repoCliente;
+            _repoRutina=repoRutina;
         }
 
 
@@ -30,8 +30,8 @@ namespace GimnasioFacil.App.Presentacion.Pages
             if(!ModelState.IsValid){
                 return Page();
             }
-            _repoCliente.CrearCliente(Cli);
-            return RedirectToPage("/ListaClientes/tablaClientes");
+            _repoRutina.CrearRutina(Ruti);
+            return RedirectToPage("/ListaRutina/Listas");
         }
     }
 }
