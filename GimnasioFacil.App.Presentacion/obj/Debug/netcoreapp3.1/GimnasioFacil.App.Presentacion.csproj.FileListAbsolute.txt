@@ -84,3 +84,4 @@ C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\obj\Debug\netcoreap
 C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ListaClientes\tablaClientes.cshtml.g.cs
 C:\Gimnasio\GimnasioFacil.App\gimnasioFacil.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ListaClientes\FormularioCliente.cshtml.g.cs
 C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ListaRutina\FormularioRutina.cshtml.g.cs
+C:\Gimnasio\GimnasioFacil.App\gimnasiofacil.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\ListaNutricion\FormularioN.cshtml.g.cs

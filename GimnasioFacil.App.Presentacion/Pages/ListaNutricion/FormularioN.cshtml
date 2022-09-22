@@ -1,0 +1,56 @@
+﻿@page
+@model GimnasioFacil.App.Presentacion.Pages.FormularioNModel
+@{
+}
+  <br>
+<h2 class="text-info" style="text-align: center;">Crearemos una Nutricion!!!</h2>
+
+<div class="border">
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+         <div class="container" style="padding: 50px;">
+           <div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Nuti.NombreNutricion">¿Cómo deseas nombrar la Nutricion?</label>
+                       
+                      <div class="col-sm-4">
+                        <input asp-for="Nuti.NombreNutricion"  class="form-control">
+                      </div>
+                      <span asp-validation-for="Nuti.NombreNutricion"  class="text-danger"></span>
+                  </div>
+              </div>
+
+              <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Nuti.Descripcion">Ingredientes</label>
+                       
+                      <div class="col-sm-4">
+                        <input asp-for="Nuti.Descripcion" class="form-control">
+                      </div>
+                      <span asp-validation-for="Nuti.Descripcion" class="text-danger"></span>
+                  </div>
+              </div>
+
+
+            <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2 ">
+                    <input type="submit" value="Crear" style="width:100px;height:40px" class="btn btn-primary form-control">
+                       </div>
+                       <div class="col-sm-2">
+                        <a asp-page="/ListaNutricion/Listas" style="width:100px;height:40px" class="btn btn-success form-control">Volver</a>
+                       </div>
+                      
+                  </div>
+              </div>
+
+
+
+
+        </div>
+    </form>
+
+
+</div>
