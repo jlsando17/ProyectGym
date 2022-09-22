@@ -18,7 +18,7 @@ namespace GimnasioFacil.App.Presentacion.Pages
         {
             _repoRutina=reporutina;
         }
-        public void OnGet()
+        public void OnGet() 
         {
             listaRutina=new List<Rutina>();
             listaRutina=_repoRutina.ConsultarRutinas();

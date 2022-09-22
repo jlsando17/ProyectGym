@@ -17,7 +17,7 @@ namespace GimnasioFacil.App.Presentacion
         public ListasModel(IRepositorioNutricion reponutricion)
         {
             _repoNutricion=reponutricion;
-        }
+        } 
 
         public void OnGet()
         {

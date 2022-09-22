@@ -1,0 +1,144 @@
+﻿@page
+@model GimnasioFacil.App.Presentacion.Pages.FormularioClienteModel
+@{
+}
+<br>
+<h2 class="text-info" style="text-align: center;">Crear Cliente</h2>
+
+<div class="border">
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+         <div class="container" style="padding: 50px;">
+           <div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Nombres">Nombres</label>
+                       
+                      <div class="col-sm-4">
+                        <input asp-for="Cli.Nombres" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Nombres" style="width:50px;height:40px;"  class="text-danger"></span>
+                  </div>
+              </div>
+
+              <div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Apellidos">Apellidos</label>
+                       
+                      <div class="col-sm-8">
+                        <input asp-for="Cli.Apellidos" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Apellidos" class="text-danger"></span>
+                  </div>
+              </div>
+
+                            <div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Email">Correo Electronico</label>
+                       
+                      <div class="col-sm-8">
+                        <input asp-for="Cli.Email" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Email" class="text-danger"></span>
+                  </div>
+              </div>
+
+                            <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Telefono">Telefono</label>
+                       
+                      <div class="col-sm-8">
+                        <input asp-for="Cli.Telefono" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Telefono" class="text-danger"></span>
+                  </div>
+              </div>
+
+
+                            <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Direccion">Direccion</label>
+                       
+                      <div class="col-sm-8">
+                        <input asp-for="Cli.Direccion" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Direccion" class="text-danger"></span>
+                  </div>
+              </div>
+
+
+                            <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Contrasena">ContraseÑa</label>
+                       
+                      <div class="col-sm-8">
+                        <input asp-for="Cli.Contrasena" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Contrasena" class="text-danger"></span>
+                  </div>
+              </div>
+
+
+                            <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Edad">Edad</label>
+                       
+                      <div class="col-sm-8">
+                        <input asp-for="Cli.Edad" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Edad" class="text-danger"></span>
+                  </div>
+              </div>
+
+
+                            <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Peso">Peso</label>
+                       
+                      <div class="col-sm-8">
+                        <input asp-for="Cli.Peso" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Peso" class="text-danger"></span>
+                  </div>
+              </div>
+
+
+                            <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2" >
+                    <label asp-for="Cli.Altura">Altura</label>
+                       
+                      <div class="col-sm-8">
+                        <input asp-for="Cli.Altura" class="form-control">
+                      </div>
+                      <span asp-validacion-for="Cli.Altura" class="text-danger"></span>
+                  </div>
+              </div>
+
+            <br><div class="form -group" >
+              <div class="row" >
+                 <div class="col-sm 2 offset-sm-4">
+                    <input type="submit" value="Crear" style="width:100px;height:40px" class="btn btn-primary form-control">
+                       </div>
+                       <div class="col-sm-2">
+                        <a asp-page="/ListaClientes/tablaClientes" style="width:100px;height:40px" class="btn btn-success form-control">Volver</a>
+                       </div>
+                      
+                  </div>
+              </div>
+
+
+
+
+        </div>
+    </form>
+
+
+</div>

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CutGkyLtB4kNBqRzQioD7QWJqbUBWonV4C+TVNcnGB3y7JSH/ux6kMSyqtKI9+2XN4HfLzKN3A12m2McCNx5JQ==",
+  "dgSpecHash": "y0g6kIFjqViWWbMxwDJIC0tBvzD+GrrGOOxK8A+DARn0j04ObZZ4GyIZDCuZRN3XLdhAG9OQY2gelZHlS5FWwA==",
   "success": true,
   "projectFilePath": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Dominio\\GimnasioFacil.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anita\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\anita\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\anita\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\anita\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2072,6 +2072,9 @@
       "GimnasioFacil.App.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/GimnasioFacil.App.Dominio.dll": {}
         },
@@ -7268,11 +7271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasioFacil.App.Persistencia\\GimnasioFacil.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Persistencia\\GimnasioFacil.App.Persistencia.csproj",
       "projectName": "GimnasioFacil.App.Persistencia",
-      "projectPath": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasioFacil.App.Persistencia\\GimnasioFacil.App.Persistencia.csproj",
+      "projectPath": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Persistencia\\GimnasioFacil.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\anita\\.nuget\\packages\\",
-      "outputPath": "C:\\Gimnasio\\GimnasioFacil.App\\gimnasioFacil.App.Persistencia\\obj\\",
+      "outputPath": "C:\\Gimnasio\\GimnasioFacil.App\\GimnasioFacil.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anita\\AppData\\Roaming\\NuGet\\NuGet.Config"

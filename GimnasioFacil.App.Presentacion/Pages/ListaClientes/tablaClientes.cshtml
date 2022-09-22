@@ -1,0 +1,46 @@
+﻿@page
+@model GimnasioFacil.App.Presentacion.tablaClientesModel
+@{
+    ViewData["title"]="Clientes";
+}
+ </div>
+<div class="col-sm-2">
+<a asp-page="/ListaClientes/FormularioCliente" style="width:200px;height:40px" class="btn btn-success form-control">Crear Cliente</a>
+ </div>           
+
+ <h2 class="text-info" style="text-align:center;">Lista clientes</h2>
+
+<div class="border">
+    <table class="table">
+        <tr>
+            <td>Nombres </td>
+            <td>Apellidos</td>
+            <td>Email </td>
+            <td>Apellidos</td>
+            <td>Telefono </td>
+            <td>Direccion</td>
+            <td>Contraseña </td>
+            <td>Edad</td>
+            <td>Peso </td>
+            <td>Altura</td>
+        </tr>
+        @foreach(var n in Model.listaCliente)
+        {
+            <tr>
+          
+            <td>@n.Nombres </td>
+            <td>@n.Apellidos</td>
+            <td>@n.Email </td>
+            <td>@n.Apellidos</td>
+            <td>@n.Telefono </td>
+            <td>@n.Direccion</td>
+            <td>@n.Contrasena </td>
+            <td>@n.Edad</td>
+            <td>@n.Peso </td>
+            <td>@n.Altura</td>
+            </tr>
+        }
+
+    </table>
+
+</div>

@@ -7,7 +7,7 @@ namespace GimnasioFacil.App.Dominio
       public string NombreRutina{get;set;}
       public string Descripcion{get;set;}
 
-      
+  
       }
 
 } 

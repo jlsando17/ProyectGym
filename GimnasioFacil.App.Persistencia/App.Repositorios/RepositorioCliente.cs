@@ -22,7 +22,7 @@ namespace GimnasioFacil.App.Persistencia
         }
         public IEnumerable<Cliente> ConsultarClientes()
         {
-            return _appContext.Clientes;
+            return _appContext.Clientes;  
         }
         public Cliente ActualizarCliente(Cliente cliente)
         {
