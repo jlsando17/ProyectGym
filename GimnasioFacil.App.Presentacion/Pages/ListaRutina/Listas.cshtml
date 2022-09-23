@@ -10,14 +10,20 @@
 <div class="border">
     <table class="table">
         <tr>
-            <td>Nombre de la Rutina</td>
-            <td>Descripcion</td>
+            <td>NOMBRE</td>
+            <td>DESCRIPCION</td>
+           
+
         </tr>
+        <tr><td></td></tr>
         @foreach(var r in Model.listaRutina)
         {
             <tr>
                 <td>@r.NombreRutina</td>
                 <td>@r.Descripcion</td>
+                <td>
+                   <a type="button" asp-page="/ListaRutina/Editar" class="btn btn-secondary" asp-route-rutinaId=@r.Id>Editar</a>
+                </td>
             </tr>
         }
 

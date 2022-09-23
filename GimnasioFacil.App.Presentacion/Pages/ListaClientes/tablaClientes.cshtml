@@ -13,17 +13,17 @@
 <div class="border">
     <table class="table">
         <tr>
-            <td>Nombres </td>
-            <td>Apellidos</td>
-            <td>Email </td>
-            <td>Apellidos</td>
-            <td>Telefono </td>
-            <td>Direccion</td>
-            <td>Contraseña </td>
-            <td>Edad</td>
-            <td>Peso </td>
-            <td>Altura</td>
+            <td>NOMBRES </td>
+            <td>APELLIDOS</td>
+            <td>EMAIL </td>
+            <td>TELEFONO </td>
+            <td>DIRECCION</td>
+            <td>CONTRASEÑA</td>
+            <td>EDAD</td>
+            <td>PESO </td>
+            <td>ALTURA</td>
         </tr>
+        <TR><td></td></TR>
         @foreach(var n in Model.listaCliente)
         {
             <tr>
@@ -31,13 +31,16 @@
             <td>@n.Nombres </td>
             <td>@n.Apellidos</td>
             <td>@n.Email </td>
-            <td>@n.Apellidos</td>
+            
             <td>@n.Telefono </td>
             <td>@n.Direccion</td>
             <td>@n.Contrasena </td>
             <td>@n.Edad</td>
             <td>@n.Peso </td>
             <td>@n.Altura</td>
+            <td>
+            <a type="button" asp-page="/ListaClientes/EditarC" class="btn btn-secondary" asp-route-clienteId=@n.Id>Editar</a>
+            </td>
             </tr>
         }
 

@@ -9,6 +9,9 @@ a.navbar-brand {
 .container {
   background-color: #b4f836e1;
 }
+.table {
+  background-color: #f2f531e1;
+}
 
 /* Provide sufficient contrast against white background */
 a {

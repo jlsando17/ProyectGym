@@ -10,15 +10,20 @@
 <div class="border">
     <table class="table">
         <tr>
-            <td>Nombre del estilo de Nutricion</td>
-            <td>Descripcion</td>
+            <td>NOMBRE</td>
+            <td>DESCRIPCION</td>
         </tr>
+        <tr><td></td></tr>
         @foreach(var n in Model.listaNutricion)
         {
             <tr>
                 <td>@n.NombreNutricion</td>
                 <td>@n.Descripcion</td>
+                 <td>
+                   <a type="button" asp-page="/ListaNutricion/EditarN" class="btn btn-secondary" asp-route-nutricionId=@n.Id>Editar</a>
+                </td>
             </tr>
+            
         }
 
     </table>
