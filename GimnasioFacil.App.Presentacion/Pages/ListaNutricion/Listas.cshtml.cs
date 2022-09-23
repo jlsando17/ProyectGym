@@ -19,10 +19,11 @@ namespace GimnasioFacil.App.Presentacion
             _repoNutricion=reponutricion;
         } 
 
-        public void OnGet()
+        public void OnGet(int nutricionId)
         {
             listaNutricion=new List<Nutricion>();
             listaNutricion=_repoNutricion.ConsultarNutriciones();
+            _repoNutricion.EliminarNutricion(nutricionId);
         }
     }
 }

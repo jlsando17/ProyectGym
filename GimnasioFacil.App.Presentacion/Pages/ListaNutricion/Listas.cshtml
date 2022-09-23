@@ -3,6 +3,7 @@
 @{
     ViewData["Title"]="Nutricion";
 }
+
 <br>
 <a asp-page="/ListaNutricion/FormularioN" style="width:200px;height:40px" class="btn btn-success form-control">Crear Nutricion</a>
 <br><br><h2 class="text-info" style="text-align:center;">Lista Nutricion</h2>
@@ -21,6 +22,9 @@
                 <td>@n.Descripcion</td>
                  <td>
                    <a type="button" asp-page="/ListaNutricion/EditarN" class="btn btn-secondary" asp-route-nutricionId=@n.Id>Editar</a>
+                </td>
+                <td>
+                   <a type="button"  class="btn btn-danger" asp-route-nutricionId=@n.Id >Eliminar</a>
                 </td>
             </tr>
             

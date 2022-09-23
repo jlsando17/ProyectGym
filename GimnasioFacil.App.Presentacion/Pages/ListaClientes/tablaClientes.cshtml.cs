@@ -19,10 +19,11 @@ namespace GimnasioFacil.App.Presentacion
             _repoCliente=repocliente;
         } 
 
-        public void OnGet()
+        public void OnGet(int clienteId)
         {
             listaCliente=new List<Cliente>();
             listaCliente=_repoCliente.ConsultarClientes();
+            _repoCliente.EliminarCliente(clienteId);
         }
     }
 }

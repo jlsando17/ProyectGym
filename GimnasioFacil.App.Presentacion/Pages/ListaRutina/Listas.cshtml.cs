@@ -18,10 +18,11 @@ namespace GimnasioFacil.App.Presentacion.Pages
         {
             _repoRutina=reporutina;
         }
-        public void OnGet() 
+        public void OnGet(int rutinaId) 
         {
             listaRutina=new List<Rutina>();
             listaRutina=_repoRutina.ConsultarRutinas();
+            _repoRutina.EliminarRutina(rutinaId);
 
         }
 
