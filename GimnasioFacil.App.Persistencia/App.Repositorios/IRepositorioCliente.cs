@@ -10,5 +10,6 @@ namespace GimnasioFacil.App.Persistencia
         IEnumerable<Cliente> ConsultarClientes();
         Cliente ActualizarCliente(Cliente cliente);
         void EliminarCliente(int idCliente);
+        Cliente ConsultarClienteContrasena(string Contrasena);
     }
 } 

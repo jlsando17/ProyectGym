@@ -20,6 +20,12 @@ namespace GimnasioFacil.App.Persistencia
             return _appContext.Clientes.FirstOrDefault(p=>p.Id==idCliente);
 
         }
+        public Cliente ConsultarClienteContrasena(string Contrasena)
+        {
+            return _appContext.Clientes.FirstOrDefault(p=>p.Contrasena==Contrasena);
+        }
+
+
         public IEnumerable<Cliente> ConsultarClientes()
         {
             return _appContext.Clientes;  
