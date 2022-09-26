@@ -16,7 +16,7 @@ namespace GimnasioFacil.App.Persistencia
         if(!optionsBuilder.IsConfigured)
         {
             optionsBuilder
-            .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog= GimnasioFacilData");
+            .UseSqlServer("Data Source=SQL8002.site4now.net;Initial Catalog=db_a8d601_gimansiofacil;User Id=db_a8d601_gimansiofacil_admin;Password=YOUR_DB_PASSWORD");
         }
     }
   }
