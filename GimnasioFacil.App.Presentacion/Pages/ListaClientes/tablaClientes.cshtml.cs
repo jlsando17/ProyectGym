@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using GimnasioFacil.App.Persistencia;
 using GimnasioFacil.App.Dominio;
+using Microsoft.AspNetCore.Authorization;
  
 namespace GimnasioFacil.App.Presentacion
 {
+    [Authorize]
     public class tablaClientesModel : PageModel
     {
         private readonly IRepositorioCliente _repoCliente;
