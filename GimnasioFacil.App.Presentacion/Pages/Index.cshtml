@@ -7,6 +7,21 @@
 <div class="text-center">
     <h1 class="display-4">TE DAMOS LA BIENVENIDA A GIMNASIOFACIL.APP</h1>
 
+<p>claims usuario</p>
+@if (User.Identity.IsAuthenticated){
+    <table lass="table">
+        @foreach(var i in User.Claims)
+        {
+            <tr>
+                <td>
+                    @i.Type
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+
 </div> 
        <div class="col-sm-3">
                         <a asp-page="/ListaClientes/tablaClientes" style="width:100px;height:40px" class="btn btn-success form-control">Ingresar</a>
